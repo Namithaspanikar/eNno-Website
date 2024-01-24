@@ -112,7 +112,7 @@
 }
 
 .behind{
-    opacity:0.2;
+    opacity:0.1;
     text-align: center;
     font-size: 50px;
     position: relative;
@@ -125,5 +125,13 @@
 }
 .Servicee{
     background-color: rgb(244, 244, 243);
-    padding-bottom: 65px;
+    padding-bottom: 48px;
+}
+.b7c i {
+    text-align: center;
+}.b7c{
+    text-align: center;
+}
+.cardapp{
+    text-align: center;
 }
