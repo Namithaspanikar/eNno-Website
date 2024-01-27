@@ -123,9 +123,10 @@
     left: 50%;
     transform: translate(-50%,-100%);
 }
+
 .Servicee{
     background-color: rgb(244, 244, 243);
-    padding-bottom: 48px;
+    padding-bottom: 45px;
 }
 .b7c i {
     text-align: center;
@@ -135,3 +136,291 @@
 .cardapp{
     text-align: center;
 }
+
+/* Portfolio */
+
+.portt
+{
+    padding-left: 515px;
+}
+.col-1:hover{
+    color: rgb(12, 169, 67);
+
+}
+.Servicee2{
+    background-color: rgb(244, 244, 243);
+    padding-bottom: 50px;
+
+}
+
+/* Portfolio */
+
+.img1,.img2,.img3, .img4, .img5,.img6,.img7,.img8,.img9{
+    position: relative;
+    /* width: 100%; */
+}
+
+.pop{
+    position:absolute;
+    background-color: rgba(255, 255, 255, 0.75);
+    bottom:30px;
+    width: 92%;
+    display: none;
+}
+
+.img1:hover .pop,
+.img2:hover .pop,
+.img3:hover .pop,
+.img4:hover .pop,
+.img5:hover .pop,
+.img6:hover .pop,
+.img7:hover .pop,
+.img8:hover .pop,
+.img9:hover .pop{
+    display: block;
+    animation-name: popup;
+    animation-duration: 0.25s;
+    transition: all ease-in-out;
+}
+
+@keyframes popup{
+    0%{
+        bottom:10px
+    }
+    100%{
+        bottom:30px;
+    }
+}
+
+
+
+
+
+
+
+/* Testimonials */
+
+.testimonials
+{
+     padding: 64px 0;
+
+}
+.main-box{
+    width: 400px;
+}
+.cardA1{
+   background-color: #ffffff;
+   padding: 20px 60px 20px !important;
+
+}
+
+.prof img{
+    border-radius: 50%;
+    width: 80px!important ;
+    border: 4px solid  #f3f0f0;
+}
+.satyyyyy{
+    margin-bottom: 100px;
+    font-style: italic;
+    color: rgb(83, 78, 78);
+}
+.prof{
+    margin-top: -40px;
+    margin-left: 20px;
+}
+.call{
+    
+    background: #16df7e;
+    background-size: cover;
+    padding: 90px 0;
+    color:white;
+}
+.call .para-text{
+    font-size: 17px !important;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+.border-btn{
+    border: 2px solid !important;
+    border-radius: 5px !important;
+    border-color: white !important;
+    color:white !important;
+    padding:10px 28px 10px 28px !important;
+}
+
+.border-btn:hover{
+    background-color: #1862f5 !important;
+    border-radius: 5px !important;
+    border-color: #1862f5 !important;
+}
+
+/* Team */
+
+
+.team{
+    padding-bottom:70px;
+}
+
+.white-bg{
+    background-color: white;
+}
+
+.ico-colors{
+    color:rgba(145, 149, 146, 0.879);
+    font-size: 15px !important;
+}
+
+.ico-color{
+    color:rgba(145, 149, 146, 0.879);
+    font-size: 20px;
+}
+
+.ico-color:hover{
+    color:rgb(43, 139, 43)!important;
+}
+
+
+/* contact */
+
+.details{
+    background-color: #ededed;
+    border-top:2px solid rgb(63, 214, 63);
+    border-bottom:2px solid rgb(63, 214, 63);
+    padding:20px;
+}
+
+.h3-size{
+    color:rgb(68, 71, 69);
+}
+
+.para-size{
+    font-size: 15px !important;
+    color:rgba(145, 149, 146, 0.879);
+    padding-bottom: 15px;
+}
+
+.iconholder i{
+    font-size: 24px;
+    color:green;
+}
+.iconholder{
+    background-color:rgb(255, 255, 255);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+.icon-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.subs{
+    font-size: 17px !important;
+}
+
+.sub{
+    font-size: 17px !important;
+}
+
+.form-btn{
+    background-color: #16df7e !important;
+    color: rgb(19, 16, 16) !important;
+    padding:8px 20px !important;
+    font-size: 18px !important;
+}
+
+.bt-ce{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+
+/* Footer */
+
+
+
+.foot-margin{
+    padding-top: 70px !important;
+}
+
+.foot-para{
+    font-size: 17px !important;
+    color:rgba(145, 149, 146, 0.999) !important;
+}
+
+.foot-width{
+    width:60%;
+}
+
+.subscribe{
+    border-width: 0 !important;
+    margin-left:-10px !important;
+    border-radius: 0 4px 4px 0 !important;
+}
+
+.footer-icon i{
+    padding:9px;
+    margin:3px;
+    background-color: #82838446;
+    border-radius: 4px;
+}
+
+.font-size{
+    font-size: 15px !important;
+}
+
+
+/* arrow 
+
+.arrow{
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    background-color: #16df7e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom:15px;
+    right:15px;
+}
+
+.arrow i{
+    color:white;
+}
+
+.arrow:hover{
+    background-color:green;
+}
+
+
+
+/* RESPONSIVE 
+
+@media all and (max-width:991px) {
+    .bt-ce{
+        padding-bottom: 60px !important;
+    }
+}
+
+@media all and (max-width:991px) {
+    .details{
+        margin-top: 12px !important;
+    }
+}
+
+@media all and (max-width:1360px) {
+    .main-box{
+        margin-left: 10px !important;
+    }
+} 
+
+
+
